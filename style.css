@@ -30,25 +30,25 @@ html body {height: 100%;
 		 width: auto;
 		 height: auto;
 		 left: 70px;
-		 bottom: 180px;
+		 top: 650px;
 		 position: fixed;
 		 font-size: 20px;
-		 color: #C71585
+		color: #C71585
 		}
 #lang 	{
 		 width: auto;
 		 height: auto;
 		 left: 70px;
-		 bottom: 45px;
+		 top: 820px;
 		 position: fixed;
 		 font-size: 20px;
-		color: #C71585
+		 color: #C71585
 		}
 #circle {
 		 position: fixed;
 		 height: auto;
 		 width: auto;
-		 bottom: 110px;
+		 top: 848px;
 		 left: 180px
 }
 #circle1 {
@@ -61,7 +61,7 @@ html body {height: 100%;
 }
 #circle2 {
 	top: 23px;
-	position: fixed;
+	position: absolute;
 	border: solid 2px white;
     border-radius: 25px;
     width: 100px;
@@ -70,14 +70,15 @@ html body {height: 100%;
 }
 #circle3 {
 	top: 46px;
-	position: fixed;
+	position: absolute;
     border-radius: 25px;
     width: 100px;
     height: 15px;
 	border: solid 2px white;
 	background: rgba(199,21,133, .6)
 }
-#line { position: fixed;
+#line {
+		position: fixed;
 		left: 370px;
 		height: 100%;
 		border-left: 5px dotted rgba(199,21,133, .2);
@@ -98,7 +99,7 @@ html body {height: 100%;
 #train  {
 		 width: auto;
 		 height: auto;
-		 right: 14.5%;
+		 left: 65%;
 		 top: 70px;
 		}
 #ed 	{
@@ -116,8 +117,8 @@ html body {height: 100%;
 		 position: fixed;
 		 width: auto;
 		 height: auto;
-		 right: 15%;
-		 margin-top: 170px
+		 left: 65%;
+		 top: 170px
 
 }
 #line2  {
@@ -136,7 +137,7 @@ html body {height: 100%;
 		 position: fixed;
 		 box-sizing: border-box;
 		 left: 30%;
-		 bottom: 10%;
+		 top: 30%;
 		 background-color: rgba(199,21,133, .2);
 		 height: 300px;
 		 width: 1150px;
