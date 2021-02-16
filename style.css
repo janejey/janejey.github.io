@@ -1,0 +1,150 @@
+html body {height: 100%;
+	margin: 0;
+	background-image: url('https://images.unsplash.com/photo-1570475735025-6cd1cd5c779d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb');}
+#pic img {
+			width: 200px;
+			margin: 70px;
+			border: 5px double #C71585;
+			position: fixed
+		}
+#name {
+		width: auto;
+		height: auto;
+		left: 70px;
+		top: 380px;
+		position: absolute;
+		font-style: unset;
+		font-size: 40px;
+		color: #C71585
+		}
+#about {
+		width: auto;
+		height: auto;
+		left: 70px;
+		top: 500px;
+		position: absolute;
+		font-size: 20px;
+		color: #C71585
+		}
+#skills {
+		 width: auto;
+		 height: auto;
+		 left: 70px;
+		 top: 650px;
+		 position: fixed;
+		 font-size: 20px;
+		color: #C71585
+		}
+#lang 	{
+		 width: auto;
+		 height: auto;
+		 left: 70px;
+		 top: 820px;
+		 position: fixed;
+		 font-size: 20px;
+		 color: #C71585
+		}
+#circle {
+		 position: fixed;
+		 height: auto;
+		 width: auto;
+		 top: 848px;
+		 left: 180px
+}
+#circle1 {
+	position: absolute;
+    border-radius: 25px;
+    width: 100px;
+    height: 15px;
+	border: solid 2px white;
+	background: linear-gradient(to right, rgba(199,21,133, .6) 70%, rgba(199,21,133, .1) 30%)
+}
+#circle2 {
+	top: 23px;
+	position: absolute;
+	border: solid 2px white;
+    border-radius: 25px;
+    width: 100px;
+    height: 15px;
+	background: linear-gradient(to right, rgba(199,21,133, .6) 80%, rgba(199,21,133, .1) 20%)
+}
+#circle3 {
+	top: 46px;
+	position: absolute;
+    border-radius: 25px;
+    width: 100px;
+    height: 15px;
+	border: solid 2px white;
+	background: rgba(199,21,133, .6)
+}
+#line {
+		position: fixed;
+		left: 370px;
+		height: 100%;
+		border-left: 5px dotted rgba(199,21,133, .2);
+		}
+.theme { 
+		 position: fixed;
+		 font-size: 50px;
+		 font-style: oblique;
+		 color: #C71585;
+		 text-decoration: underline solid rgba(199,21,133, .3);
+		}
+#edu 	{
+		 width: auto;
+		 height: auto;
+		 left: 30%;
+		 top: 70px;
+		}
+#train  {
+		 width: auto;
+		 height: auto;
+		 left: 65%;
+		 top: 70px;
+		}
+#ed 	{
+		 left: 30%;
+		 position: fixed;
+		 top: 170px;
+		}
+.texts  {
+		 font-size: 23px;
+		 color: #C71585;
+		 line-height: 1.5
+
+}
+#work	{
+		 position: fixed;
+		 width: auto;
+		 height: auto;
+		 left: 65%;
+		 top: 170px
+
+}
+#line2  {
+		position: fixed;
+		left: 370px;
+		top: 450px;
+		width: 100%;
+		border-top: 5px dotted rgba(199,21,133, .2);
+}
+#me 	{
+		 position: fixed;
+		 left: 52%;
+		 top: 470px
+}
+#abme 	{
+		 position: fixed;
+		 box-sizing: border-box;
+		 left: 30%;
+		 bottom: 10%;
+		 background-color: rgba(199,21,133, .2);
+		 height: 300px;
+		 width: 1150px;
+		 text-align: center;
+		 color: #8B008B;
+		 padding: 50px 15px;
+		 line-height: 1.5;
+		 font-size: 23px;
+		 border-radius: 25px
+}
