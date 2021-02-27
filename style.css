@@ -141,10 +141,17 @@ html body {height: 100%;
 		 background-color: rgba(199,21,133, .2);
 		 height: 300px;
 		 width: 1150px;
-		 text-align: center;
 		 color: #8B008B;
 		 padding: 50px 15px;
 		 line-height: 1.5;
 		 font-size: 23px;
 		 border-radius: 25px
+}
+#abme a {
+	margin-left: 45px;
+	font-size: 25px;
+	color: #C71585;
+	line-height: 2;
+	font-weight: 550;
+	font-style: italic;
 }
